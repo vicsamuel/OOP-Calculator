@@ -1,0 +1,31 @@
+// $Id: assignment4.mpc
+
+project (assignment4) {
+  exename = assignment4
+  install = .
+ 
+  specific (make, gnuace) {
+    compile_flags += -std=c++11
+  }
+
+  Source_Files {
+    driver.cpp
+    Add_Exp_Node.cpp
+    Subtract_Exp_Node.cpp
+    Multiply_Exp_Node.cpp
+    Divide_Exp_Node.cpp
+    Modulus_Exp_Node.cpp
+    Binary_Exp_Node.cpp
+    Infix_Postfix_Helper.cpp
+    Num_Node.cpp
+    Postfix_Builder.cpp
+    Postfix_Visitor.cpp
+  }
+
+  Template_Files {
+    Fixed_Array.cpp
+    Stack.cpp
+    Base_Array.cpp
+    Queue.cpp
+  }
+}
