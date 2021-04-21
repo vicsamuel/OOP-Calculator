@@ -1,0 +1,26 @@
+// shared_lib.mpc
+    
+project (my_shared_lib) {
+    sharedname = my_shared_lib     // Declare project as shared library
+      
+    dynamicflags += MY_SHARED_LIB_BUILD_DLL
+      
+    dllout = .                     // Define location of generated shared library
+    libout = .                     // Define location of import library (Windows only)
+      
+    Source_Files {
+        my_shared_lib.cpp
+    }
+}
+
+project (shared_exe) {
+    exename = shared_exe
+    install = .
+      
+    libs  += my_shared_lib
+    after += my_sahred_lib
+
+    Source_Files {
+        shared_exe.cpp
+    }
+}
