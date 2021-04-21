@@ -1,4 +1,7 @@
 <h1 align="center">Object Oriented Programming - Case Study Calculator</h1>
+<p align="center">
+  An exploration into the methodology of OOP!
+</p>
 
 <p align="center">
   <img src=/calc.jpeg>
