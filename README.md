@@ -1,7 +1,7 @@
 <h1 align="center">Object Oriented Programming - Case Study Calculator</h1>
 
 <p align="center">
-  <img src=/images/calc.jpeg>
+  <img src=/calc.jpeg>
     <br>Figure 1</br>
 </p>
 
