@@ -27,20 +27,20 @@ MPC is used thoughout this entire project to help with creating the makefiles fo
 - Software can be downloaded from their Github at the following link: [https://github.com/DOCGroup/MPC](https://github.com/DOCGroup/MPC)
 
 **Part 1 - Composition**
-To warm up my C++ skills I will be designing the libraries for the Array, Stack, Queue, and Fixed Array classes. I will also be adding a Base Array class to prevent the issue of the Liskov Substitution Principle. No standard library classes will be used for this and these base classes will be used for the other three parts of this project. This part had to be redone because my project was failing in the later sections.
+<p>To warm up my C++ skills I will be designing the libraries for the Array, Stack, Queue, and Fixed Array classes. I will also be adding a Base Array class to prevent the issue of the Liskov Substitution Principle. No standard library classes will be used for this and these base classes will be used for the other three parts of this project. This part had to be redone because my project was failing in the later sections.</p>
 
 **Part 2 - Calculator (1)**
-For this part of the project we will be extending our written library files into creating our Calculator. The algorithm for converting an Infix to Postfix Expression will be used as it allows the expression to be processed in O(n) time. In addition to this the following requirements must be satisfied:
-- The Command Pattern will be used to evaluate the Postfix Expression
+<p>For this part of the project we will be extending our written library files into creating our Calculator. The algorithm for converting an Infix to Postfix Expression will be used as it allows the expression to be processed in O(n) time. In addition to this the following requirements must be satisfied:
+- The Command Pattern will be used to evaluate the Postfix Expression</p>
 - The Abstract Factory pattern will be used to create the commands based on parsing the Infix Expression to convert it into a Postfix expression
 
 **Part 3 - Calculator (2)**
-The third part of this project is similar to the last part in that the same expression will be evaluated, but this time different patterns will be used. The Infix to PostFix expression was tough to work with and had a high complexity so that will need to be abstracted as well. The following requirements will be satisfied:
+<p>The third part of this project is similar to the last part in that the same expression will be evaluated, but this time different patterns will be used. The Infix to PostFix expression was tough to work with and had a high complexity so that will need to be abstracted as well. The following requirements will be satisfied:</p>
 - The Composite, Visitor, and Builder patterns will be used to design and implement this version of the expression evaluator
 - A Facade pattern will be implemented to improve the complexity of the Infix to Postfix evaluator
 
 **Part 4 - Shared Library**
-This final part of this project was more of an exploration into the benefits of MPC and how shared libraries could be created and used. This shows that these binaries can be resolved at runtime, instead of linked directly into the library at compile time. The goal of shared libraries is to reduce the amount of duplicate code linked to an executable.
+<p>This final part of this project was more of an exploration into the benefits of MPC and how shared libraries could be created and used. This shows that these binaries can be resolved at runtime, instead of linked directly into the library at compile time. The goal of shared libraries is to reduce the amount of duplicate code linked to an executable.</p>
 
 **Software Required**
 - A GCC Compiler was used
