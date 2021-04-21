@@ -2,7 +2,6 @@
 
 <p align="center">
   <img src=/calc.jpeg>
-    <br>Figure 1</br>
 </p>
 
 **Goals**
