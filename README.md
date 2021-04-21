@@ -46,6 +46,7 @@ MPC is used thoughout this entire project to help with creating the makefiles fo
 **Part 4 - Shared Library**
 <p>This final part of this project was more of an exploration into the benefits of MPC and how shared libraries could be created and used. This shows that these binaries can be resolved at runtime, instead of linked directly into the library at compile time. The goal of shared libraries is to reduce the amount of duplicate code linked to an executable.</p>
 
+<br></br>
 **Software Required**
 - A GCC Compiler was used
 - Visual Studio Code was used, download link: [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
