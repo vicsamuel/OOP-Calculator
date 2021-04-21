@@ -21,8 +21,8 @@
 </p>
 - Calculator should be extensible to handle new math operators like square root, powers, etc.
   
-**MPC - Makefile Project Creator**
 
+**MPC - Makefile Project Creator**
 MPC is used thoughout this entire project to help with creating the makefiles for this project. The software is relatively simple to use though it must be used in a Linux environment
 - Software can be downloaded from their Github at the following link: [https://github.com/DOCGroup/MPC](https://github.com/DOCGroup/MPC)
 
@@ -40,7 +40,6 @@ The third part of this project is similar to the last part in that the same expr
 - A Facade pattern will be implemented to improve the complexity of the Infix to Postfix evaluator
 
 **Part 4 - Shared Library**
-
 This final part of this project was more of an exploration into the benefits of MPC and how shared libraries could be created and used. This shows that these binaries can be resolved at runtime, instead of linked directly into the library at compile time. The goal of shared libraries is to reduce the amount of duplicate code linked to an executable.
 
 **Software Required**
