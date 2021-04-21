@@ -1,0 +1,32 @@
+// MPC file to help make
+
+project (assignment3) {
+  exename = assignment3
+  install = .
+ 
+  specific (make, gnuace) {
+    compile_flags += -std=c++11
+  }
+
+  Source_Files {
+    driver.cpp
+    Binary_Command.cpp
+    Number_Command.cpp
+    Add_Command.cpp
+    Subtract_Command.cpp
+    Modulus_Command.cpp
+    Divide_Command.cpp
+    Multiply_Command.cpp
+    Unary_Command.cpp
+    Stack_Factory.cpp
+    Infix_To_Postfix.cpp
+    Expression_Facade.cpp
+  }
+
+  Template_Files {
+    Fixed_Array.cpp
+    Stack.cpp
+    Base_Array.cpp
+    Queue.cpp
+  }
+}
