@@ -26,9 +26,11 @@
 MPC is used thoughout this entire project to help with creating the makefiles for this project. The software is relatively simple to use though it must be used in a Linux environment
 - Software can be downloaded from their Github at the following link: [https://github.com/DOCGroup/MPC](https://github.com/DOCGroup/MPC)
 
+<br></br>
 **Part 1 - Composition**
 <p>To warm up my C++ skills I will be designing the libraries for the Array, Stack, Queue, and Fixed Array classes. I will also be adding a Base Array class to prevent the issue of the Liskov Substitution Principle. No standard library classes will be used for this and these base classes will be used for the other three parts of this project. This part had to be redone because my project was failing in the later sections.</p>
 
+<br></br>
 **Part 2 - Calculator (1)**
 <p>For this part of the project we will be extending our written library files into creating our Calculator. The algorithm for converting an Infix to Postfix Expression will be used as it allows the expression to be processed in O(n) time. In addition to this the following requirements must be satisfied:
 - The Command Pattern will be used to evaluate the Postfix Expression</p>
