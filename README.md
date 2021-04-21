@@ -34,11 +34,13 @@ MPC is used thoughout this entire project to help with creating the makefiles fo
 - The Command Pattern will be used to evaluate the Postfix Expression</p>
 - The Abstract Factory pattern will be used to create the commands based on parsing the Infix Expression to convert it into a Postfix expression
 
+<br></br>
 **Part 3 - Calculator (2)**
 <p>The third part of this project is similar to the last part in that the same expression will be evaluated, but this time different patterns will be used. The Infix to PostFix expression was tough to work with and had a high complexity so that will need to be abstracted as well. The following requirements will be satisfied:</p>
 - The Composite, Visitor, and Builder patterns will be used to design and implement this version of the expression evaluator
 - A Facade pattern will be implemented to improve the complexity of the Infix to Postfix evaluator
 
+<br></br>
 **Part 4 - Shared Library**
 <p>This final part of this project was more of an exploration into the benefits of MPC and how shared libraries could be created and used. This shows that these binaries can be resolved at runtime, instead of linked directly into the library at compile time. The goal of shared libraries is to reduce the amount of duplicate code linked to an executable.</p>
 
