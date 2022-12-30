@@ -1,4 +1,4 @@
-<h1 align="center">Object Oriented Programming - Case Study Calculator</h1>
+<h1 align="center">Object Oriented Programming - Calculator</h1>
 
 <p align="center">
   <img src=/calc.jpeg>
@@ -7,7 +7,7 @@
 **Goals**
 - Develop an object-oriented calculator (basic PEMDAS functionality) using _patterns & frameworks_
 - Demonstrate commonality/variability analysis in the context of a concrete application
-- Illustratge how Object Oriented frameworks can be combined with the generic programming features of C++ & STL
+- Illustrate how Object Oriented frameworks can be combined with the generic programming features of C++ & STL
 - Compare & contrast different Object Oriented design approaches and apply many of the patterns
 
 **Overview of the Calculator**
@@ -38,7 +38,7 @@
 
 <br></br>
 **Part 3 - Calculator (2)**
-<p>The third part of this project is similar to the last part in that the same expression will be evaluated, but this time different patterns will be used. The Infix to PostFix expression was tough to work with and had a high complexity so that will need to be abstracted as well. The following requirements will be satisfied:</p>
+<p>The third part of this project is similar to the last part in that the same expression will be evaluated, but this time different patterns will be used. The Infix to Postfix expression was tough to work with and had a high complexity so that will need to be abstracted as well. The following requirements will be satisfied:</p>
 - The Composite, Visitor, and Builder patterns will be used to design and implement this version of the expression evaluator
 - A Facade pattern will be implemented to improve the complexity of the Infix to Postfix evaluator
 
